@@ -25,9 +25,23 @@ header {
 footer {
   background-color: #38163f;
   padding: 2rem 0 1.25rem;
-  margin-top: 3rem;
   box-shadow: 0 3px 5px rgba(0,0,0,0.1);
 
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#sidebar {
+  background-color: #38163f;
+  text-align: center;
+  padding: 1rem 0;
+  top: 0;
+  z-index: 1;
+  width: 5rem;
+  position: fixed;
 }
 
 /* Typography */
@@ -96,6 +110,15 @@ a svg {
 }
 
 /* Elements */
+.sidebar-link {
+  font-size: 2rem;
+  padding: 0.5rem 1.5rem;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
 .round-image {
   border-radius: 50%;
   border: 2px solid rgba(0,0,0,0.2)
@@ -106,11 +129,6 @@ a svg {
   width: 22%;
   display: block;
   margin-bottom: 1.25rem;
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .card {
@@ -184,6 +202,11 @@ a svg {
   .card {
     flex: 0 0 48%;
   }
+
+  #sidebar {
+    display: none
+  }
+
 }
 
 @media (max-width: 440px) {

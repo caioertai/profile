@@ -6,96 +6,103 @@
   <title>Caio Andrade's Profile</title>
 </head>
 <body>
-  <header>
+  <div id="sidebar">
+    <a class='sidebar-link' href="#about_me"><i class="fas fa-user-circle"></i></a>
+    <a class='sidebar-link' href="#social_links"><i class="far fa-hand-spock"></i></a>
+    <a class='sidebar-link' href="#favorite_books"><i class="fas fa-book"></i></a>
+  </div>
+  <article>
+    <header>
+      <div class="grid-container">
+        <img class="round-image profile-image" src="images/profile.jpg">
+        <h1 class="text-center">Caio Andrade</h1>
+        <h2 class="text-center subtitle">Fullstack Developer</h2>
+      </div>
+    </header>
     <div class="grid-container">
-      <img class="round-image profile-image" src="images/profile.jpg">
-      <h1 class="text-center">Caio Andrade</h1>
-      <h2 class="text-center subtitle">Fullstack Developer</h2>
+      <h3 id="about_me" class="text-center section-heading">About me</h3>
+      <p class="text-center">I'm a multidisciplinary designer with focus on interactive and front-end development. I strive for applications that consume resources in the most effective way while providing a simple yet aesthetically pleasing experience to the user.</p>
     </div>
-  </header>
-  <div class="grid-container">
-    <h3 class="text-center section-heading">About me</h3>
-    <p class="text-center">I'm a multidisciplinary designer with focus on interactive and front-end development. I strive for applications that consume resources in the most effective way while providing a simple yet aesthetically pleasing experience to the user.</p>
-  </div>
-  <div class="grid-container">
-    <h3 class="text-center section-heading">Social Links</h3>
-    <div class='card-container'>
-      <a class='card card-link' href="http://www.facebook.com/caioertai">
-        <i class="card-icon fab fa-facebook-square"></i>Facebook
-      </a>
-      <a class='card card-link' href="http://www.twitter.com/caioertai">
-        <i class="card-icon fab fa-twitter"></i>Twitter
-      </a>
-      <a class='card card-link' href="http://www.linkedin.com/caioertai">
-        <i class="card-icon fab fa-linkedin"></i>Linkedin
-      </a>
+    <div class="grid-container">
+      <h3 id="social_links" class="text-center section-heading">Social Links</h3>
+      <div class='flex-container'>
+        <a class='card card-link' href="http://www.facebook.com/caioertai">
+          <i class="card-icon fab fa-facebook-square"></i>Facebook
+        </a>
+        <a class='card card-link' href="http://www.twitter.com/caioertai">
+          <i class="card-icon fab fa-twitter"></i>Twitter
+        </a>
+        <a class='card card-link' href="http://www.linkedin.com/caioertai">
+          <i class="card-icon fab fa-linkedin"></i>Linkedin
+        </a>
+      </div>
     </div>
-  </div>
-  <div class="grid-container">
-    <h3 class="text-center section-heading">Favorite Books</h3>
-    <div class='card-container'>
-      <a href="https://www.goodreads.com/book/show/164154.A_Canticle_for_Leibowitz" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/canticle.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">A Canticle for Leibowitz</h4>
-          <p class='card-subtitle'>Walter M. Miller Jr.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
-      <a href="https://www.goodreads.com/book/show/58696.David_Copperfield" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/copperfield.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">David Copperfield</h4>
-          <p class='card-subtitle'>Charles Dickens</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
-      <a href="https://www.goodreads.com/book/show/13023.Alice_in_Wonderland" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/alice.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">Alice in Wonderland</h4>
-          <p class='card-subtitle'>Lewis Carroll</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
-      <a href="https://www.goodreads.com/book/show/7235533-the-way-of-kings" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/wayofkings.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">The Way of Kings</h4>
-          <p class='card-subtitle'>Brandon Sanderson</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
-      <a href="https://www.goodreads.com/book/show/894011.Emma" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/emma.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">Emma</h4>
-          <p class='card-subtitle'>Jane Austen</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
-      <a href="https://www.goodreads.com/book/show/317547.Homeland" class='card' target="_blank">
-        <i class="fas fa-external-link-alt card-link-external"></i>
-        <img src="images/homeland.jpg" class="profile-image card-image">
-        <div class='card-content'>
-          <h4 class="card-title">Homeland</h4>
-          <p class='card-subtitle'>R. A. Salvatore</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-          tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-      </a>
+    <div class="grid-container">
+      <h3 id="favorite_books" class="text-center section-heading">Favorite Books</h3>
+      <div class='flex-container'>
+        <a href="https://www.goodreads.com/book/show/164154.A_Canticle_for_Leibowitz" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/canticle.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">A Canticle for Leibowitz</h4>
+            <p class='card-subtitle'>Walter M. Miller Jr.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+        <a href="https://www.goodreads.com/book/show/58696.David_Copperfield" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/copperfield.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">David Copperfield</h4>
+            <p class='card-subtitle'>Charles Dickens</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+        <a href="https://www.goodreads.com/book/show/13023.Alice_in_Wonderland" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/alice.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">Alice in Wonderland</h4>
+            <p class='card-subtitle'>Lewis Carroll</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+        <a href="https://www.goodreads.com/book/show/7235533-the-way-of-kings" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/wayofkings.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">The Way of Kings</h4>
+            <p class='card-subtitle'>Brandon Sanderson</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+        <a href="https://www.goodreads.com/book/show/894011.Emma" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/emma.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">Emma</h4>
+            <p class='card-subtitle'>Jane Austen</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+        <a href="https://www.goodreads.com/book/show/317547.Homeland" class='card' target="_blank">
+          <i class="fas fa-external-link-alt card-link-external"></i>
+          <img src="images/homeland.jpg" class="profile-image card-image">
+          <div class='card-content'>
+            <h4 class="card-title">Homeland</h4>
+            <p class='card-subtitle'>R. A. Salvatore</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </a>
+      </div>
     </div>
-  </div>
+  </article>
   <footer class="text-center"><em>Feito "nas coxa" durante o curso.</em></footer>
   <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </body>
