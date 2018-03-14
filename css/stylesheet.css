@@ -16,10 +16,9 @@ header {
   background-size: cover;
   background-color: #38163f;
   background-blend-mode: luminosity;
-  padding: 2rem 0 1.75rem;
+  padding: 5rem 0 4.75rem;
   margin-bottom: 1rem;
   box-shadow: 0 5px 5px rgba(0,0,0,0.15);
-
 }
 
 footer {
